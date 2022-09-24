@@ -1,0 +1,164 @@
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.txt_section {
+    font-size: 19.8px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 23px !important;
+    max-width: 400px;
+    line-height: 1.63em;
+}
+
+.top-section {
+    background-image: url("src/assets/img/visuel-services.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 1550px !important;
+    height: 900px !important;
+}
+
+h1,
+p {
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 110px;
+    font-weight: 800;
+    line-height: 1;
+    font-family: sans-serif;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cta button {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1em;
+    padding: 8px 55px 5px !important;
+    font-size: 24px !important;
+    background-color: #ff9b42;
+    border-radius: 10px;
+    border-color: #ff9b42;
+
+}
+
+ul {
+    text-align: right !important;
+    font-size: 17, 5px;
+    line-height: 1.5em;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    font-size: 17.5px;
+    line-height: 1.5em;
+}
+
+li {
+    font-size: 19px;
+    margin-bottom: 30px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-weight: bolder;
+}
+
+:host h3 {
+    font-weight: bolder;
+    font-size: 48px !important;
+}
+
+.ul_blanc li:before, .ul_noir li:before {
+    display: inline-block;
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-image: url(/assets/img/puce.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+}
+
+.ul_noir li:before,
+.ul_noir li:before {
+    display: inline-block;
+    font-family: Poppins;
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-image: url(/assets/img/puce-noire.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+    margin-bottom: 0 !important;
+}
+
+.style-conseil {
+    font-size:60px !important;
+    line-height: 1.3em;
+}
+
+.section_support {
+    z-index: 2;
+    background-color: #385fe3;
+    padding-top: 90px;
+    padding-bottom: 88px;
+    color: #fff;
+} 
+
+.cta button {
+    font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        padding: 8px 55px 5px !important;
+        font-size: 24px !important;
+        background-color: #ff9b42;
+        border-radius: 10px;
+        border-color: #fff;
+    
+    }
+
+    div.elementor-widget-wrap > div.pastille.pastille {
+        width: 179px;
+        height: 179px;
+        border-radius: 50%;
+        background-color: #ff9b42;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: /*-162px*/-17.64705882352941%;
+        right: /*-63px*/-7.934508816120907%;
+        padding: 10px 24px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16.83px;
+        box-shadow: -1px 0px 24px 0px rgb(0 0 0 / 30%);
+        overflow: hidden;
+        z-index: 2;
+        color: #fff;
+    }
+
+    .elementor-element .elementor-widget-container {
+        transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+    }
